@@ -1,54 +1,71 @@
 body {
-    background-color: #413D3D;
+    font-family: Open Sans;
 }
-.grid {
-    width: 600px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px 50px 50px;
-    border: 2px solid #cbcbcb;
-    
-}
-.grid h1 {
-    font-family: "sans-serif";
-    background-color: #01BBFF;
-    font-size: 60px;
+
+h1 {
     text-align: center;
-    color: #ffffff;
-    padding: 2px 0px;   
 }
-#score {
-    color: #01BBFF;
-    text-align: center;
-    font-size: 30px;
+
+#title {
+    text-decoration: underline;
 }
-.grid #question {
-    font-family: "monospace";
-    font-size: 30px;
-    color: #01BBFF;
+
+#quiz {
+    text-indent: 10px;
+    display:none;
 }
- 
-.buttons {
-    margin-top: 30px;
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
 }
-#btn0, #btn1, #btn2, #btn3 {
-    background-color: #01BBFF;
-    width: 250px;
-    font-size: 20px;
-    color: #fff;
-    border: 1px solid #1D3C6A;
-    margin: 10px 40px 10px 0px;
-    padding: 10px 10px;
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
 }
-#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
-    cursor: pointer;
-    background-color: #01BBFF;
+
+button {
+    position: relative;
+    float:right;
 }
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
-    outline: 0;
+
+.button a {
+    text-decoration: none;
+    color: black;
 }
-#progress {
-    color: #2b2b2b;
-    font-size: 18px;
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
 }
