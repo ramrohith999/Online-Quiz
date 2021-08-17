@@ -1,12 +1,12 @@
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
-    correctAnswer: 2
+    question: "What is the capital of France?",
+    choices: [Moscow, Berlin , Paris, Barcelona, Sydny],
+    correctAnswer: 3
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
+    question: "Where is Niagara water falls located?",
+    choices: [USA, Brazil, Indonesia, India, Canada],
+    correctAnswer: 5
   }, {
     question: "What is 8*9?",
     choices: [72, 99, 108, 134, 156],
