@@ -1,11 +1,11 @@
 (function() {
   var questions = [{
     question: "What is the capital of France?",
-    choices: [Moscow, Berlin , Paris, Barcelona, Sydny],
+    choices: ['Moscow', 'Berlin', 'Paris', 'Barcelona', 'Sydny'],
     correctAnswer: 3
   }, {
     question: "Where is Niagara water falls located?",
-    choices: [USA, Brazil, Indonesia, India, Canada],
+    choices: ['USA', 'Brazil', 'Indonesia', 'India', 'Canada'],
     correctAnswer: 5
   }, {
     question: "What is 8*9?",
