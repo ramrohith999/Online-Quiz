@@ -69,7 +69,6 @@
     var qElement = $('<div>', {
       id: 'question'
     });
-    
     var header = $('<h2>Question ' + (index + 1) + ':</h2>');
     qElement.append(header);
     
