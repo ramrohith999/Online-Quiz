@@ -42,7 +42,6 @@ function populate() {
         showProgress();
     }
 };
- 
 function guess(id, guess) {
     var button = document.getElementById(id);
     button.onclick = function() {
