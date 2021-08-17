@@ -1,8 +1,8 @@
 (function() {
   var questions = [{
-    question: "What is the capital of France?",
-    choices: ["NewYork", "Paris", "Rome", "Moscow", "Sydney"],
-    correctAnswer: 1
+    question: "What is 2*5?",
+    choices: [2, 5, 10, 15, 20],
+    correctAnswer: 2
   }, {
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],
