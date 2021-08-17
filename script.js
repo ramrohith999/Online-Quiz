@@ -1,13 +1,13 @@
 (function() {
   var questions = [{
-    question: "What is the capital of France?",
+    /*question: "What is the capital of France?",
     choices: ["Moscow", "Berlin", "Paris", "Barcelona", "Sydny"],
     correctAnswer: 3
   }, {
     question: "Where is Niagara water falls located?",
     choices: ['USA', 'Brazil', 'Indonesia', 'India', 'Canada'],
     correctAnswer: 5
-  }, {
+  },*/ {
     question: "What is 8*9?",
     choices: [72, 99, 108, 134, 156],
     correctAnswer: 0
@@ -21,9 +21,9 @@
     correctAnswer: 4
   }];
   
-  var questionCounter = 0; //Tracks question number
-  var selections = []; //Array containing user choices
-  var quiz = $('#quiz'); //Quiz div object
+  var questionCounter = 0;
+  var selections = [];
+  var quiz = $('#quiz');
   
   // Display initial question
   displayNext();
